@@ -1,3 +1,7 @@
+// Import js modules
+import "./ui";
+import "./vanilla-tilt";
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAuth, signInAnonymously, onAuthStateChanged } from "firebase/auth";
